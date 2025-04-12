@@ -14,7 +14,7 @@ const LINKS_COMPONENTS = [
   {
     id: "github",
     Component: FaGithub,
-    href: "https://github.com/hajar-nasr",
+    href: "https://github.com/hajarNasr",
   },
 ];
 
