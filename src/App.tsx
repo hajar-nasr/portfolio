@@ -5,17 +5,17 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import TechStack from "./components/Technologies";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Connect from "./components/Connect";
 
 const App: React.FC = () => {
   return (
     <div className="bg-gray-100 text-gray-900">
       <Navbar />
       <Hero />
-      <About />
       <Projects />
+      <About />
       <TechStack />
-      <Contact />
+      <Connect />
     </div>
   );
 };

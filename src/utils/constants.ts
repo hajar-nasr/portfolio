@@ -72,19 +72,19 @@ export const NAVBAR_LINKS = [
     href: "/",
   },
   {
-    id: "about",
-    text: "About",
-    href: "#about",
-  },
-  {
     id: "projects",
     text: "Projects",
     href: "#projects",
   },
   {
-    id: "contact",
-    text: "Contact",
-    href: "#contact",
+    id: "about",
+    text: "About",
+    href: "#about",
+  },
+  {
+    id: "connect",
+    text: "Connect",
+    href: "#connect",
   },
 ];
 

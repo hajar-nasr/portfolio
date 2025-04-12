@@ -2,9 +2,9 @@ import { TECH_STACK } from "../utils/constants";
 
 const Technologies = () => {
   return (
-    <section id="technologies" className="py-20 bg-gray-50 text-gray-800">
-      <div className="max-w-3xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold mb-8">Technologies I Use</h2>
+    <section id="technologies" className="pb-20 bg-gray-50 text-gray-800">
+      <div className="max-w-3xl mx-auto px-4 text-center pt-10">
+        <h2 className="text-2xl font-bold mb-8">Technologies I Use</h2>
         <div className="flex flex-wrap justify-center gap-4">
           {TECH_STACK.map((tech, index) => (
             <div
