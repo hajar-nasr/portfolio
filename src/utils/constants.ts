@@ -1,4 +1,4 @@
-export const techStack = [
+export const TECH_STACK = [
   {
     name: "HTML5",
     image:
@@ -62,5 +62,28 @@ export const techStack = [
     name: "Webflow",
     image:
       "https://github.com/user-attachments/assets/f5e90521-5aea-49da-8fa0-ebe9c50850ed",
+  },
+];
+
+export const NAVBAR_LINKS = [
+  {
+    id: "home",
+    text: "Home",
+    href: "/",
+  },
+  {
+    id: "about",
+    text: "About",
+    href: "#about",
+  },
+  {
+    id: "projects",
+    text: "Projects",
+    href: "#projects",
+  },
+  {
+    id: "contact",
+    text: "Contact",
+    href: "#contact",
   },
 ];

@@ -1,30 +1,9 @@
 import { useState } from "react";
+import { NAVBAR_LINKS } from "../utils/constants";
 import ConnectLink from "./core/ConnectLink";
 import NavbarIcon from "./core/NavbarIcon";
 import NabbarMobileMenu from "./core/NabbarMobileMenu";
 
-const NAVBAR_LINKS = [
-  {
-    id: "home",
-    text: "Home",
-    href: "/",
-  },
-  {
-    id: "about",
-    text: "About",
-    href: "#about",
-  },
-  {
-    id: "projects",
-    text: "Projects",
-    href: "#projects",
-  },
-  {
-    id: "contact",
-    text: "Contact",
-    href: "#contact",
-  },
-];
 const Logo = () => (
   <a
     href="/"

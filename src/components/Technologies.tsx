@@ -1,4 +1,4 @@
-import { techStack } from "../utils/constants";
+import { TECH_STACK } from "../utils/constants";
 
 const Technologies = () => {
   return (
@@ -9,7 +9,7 @@ const Technologies = () => {
       <div className="max-w-3xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-8">Technologies I Use</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          {techStack.map((tech, index) => (
+          {TECH_STACK.map((tech, index) => (
             <div
               key={index}
               className="w-32 bg-white p-4 rounded-xl shadow-2xl hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] transition-shadow flex flex-col items-center cursor-pointer"
