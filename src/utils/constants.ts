@@ -1,3 +1,10 @@
+import onboardingProjectImg from "../assets/images/onboarding-system.png";
+import checkoutProjectImg from "../assets/images/checkout.png";
+import portalProjectImg from "../assets/images/user-portal.webp";
+import chatAiProjectImg from "../assets/images/chat-ai.webp";
+import landingPageProjectImg from "../assets/images/landing-page.webp";
+import memoryCardProjectImg from "../assets/images/card-game.png";
+
 export const TECH_STACK = [
   {
     name: "HTML5",
@@ -93,7 +100,7 @@ export const PROJECTS = [
     title: "Multi-App Onboarding System",
     description:
       "Streamlined onboarding experience for multiple applications with seamless user flows.",
-    image: "/images/onboarding-system.png",
+    image: onboardingProjectImg,
     link: "https://start.thefabulous.co/onboarding/fabulous-initial",
     backgroundColor: "#3A239A",
     cardBackgroundColor: "#F0EEFC",
@@ -102,7 +109,7 @@ export const PROJECTS = [
     title: "Multi-Payment Checkout for Web Subscriptions",
     description:
       "A robust checkout system supporting multiple payment methods for subscription services.",
-    image: "/images/checkout.png",
+    image: checkoutProjectImg,
     link: "https://sleep.thefabulous.co/payment/lune/pwyw",
     backgroundColor: "#3C577B",
   },
@@ -110,21 +117,21 @@ export const PROJECTS = [
     title: "Subscription Management Portal",
     description:
       "A user-friendly portal for managing subscription plans and account settings.",
-    image: "/images/user-portal.webp",
+    image: portalProjectImg,
     backgroundColor: "#EAF0FD",
   },
   {
     title: "AI Life Coach Chat",
     description:
       "An AI-powered chatbot designed to provide personalized life coaching and productivity tips.",
-    image: "/images/chat-ai.webp",
+    image: chatAiProjectImg,
     backgroundColor: "#F1F5FA",
   },
   {
     title: "Fabulous Landing Pages",
     description:
       "Beautifully designed and responsive landing pages to enhance user engagement.",
-    image: "/images/landing-page.webp",
+    image: landingPageProjectImg,
     link: "https://www.thefabulous.co/",
     backgroundColor: "#241C94",
   },
@@ -132,7 +139,7 @@ export const PROJECTS = [
     title: "Memory Card Game",
     description:
       "A fun and interactive memory card game built as part of The Odin Project curriculum.",
-    image: "/images/card-game.png",
+    image: memoryCardProjectImg,
     link: "https://hajar-nasr.github.io/the-odinproject-memory-card",
     github: "https://github.com/hajar-nasr/the-odinproject-memory-card",
     backgroundColor: "#F8E7F7",
