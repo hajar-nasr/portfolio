@@ -76,7 +76,7 @@ export const NAVBAR_LINKS = [
   {
     id: "home",
     text: "Home",
-    href: "/",
+    href: "#home",
   },
   {
     id: "projects",
