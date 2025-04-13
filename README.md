@@ -1,50 +1,75 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to [my portfolio website](https://hajar-nasr.github.io/portfolio)!
+This project is built using **React**, **TypeScript**, and **Vite** to showcase my work, skills, and ways to connect with me.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Fully responsive and modern design powered by **Tailwind CSS**.
+- **Projects Section**: Explore my projects with descriptions, live demos, and GitHub links.
+- **Technologies Section**: A curated list of tools and technologies I use.
+- **Hero Section**: A welcoming introduction with a call-to-action to connect.
+- **Navbar**: Easy navigation with a mobile-friendly menu.
+- **Connect Section**: Find ways to reach me via email and LinkedIn.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Frontend**: React + TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Icons**: React Icons
 
-- Configure the top-level `parserOptions` property like this:
+## 📂 Folder Structure
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Here's a quick overview of the project structure:
+
+```
+src/
+├── App.tsx                # Main application component
+├── main.tsx               # Entry point of the application
+├── components/            # Reusable components
+│   ├── About.tsx          # About section
+│   ├── Connect.tsx        # Connect section
+│   ├── Hero.tsx           # Hero section
+│   ├── Navbar.tsx         # Navbar with mobile menu
+│   ├── Projects.tsx       # Projects section
+│   ├── Technologies.tsx   # Technologies section
+│   └── core/              # Core reusable components
+│       ├── ConnectLink.tsx
+│       ├── NabbarMobileMenu.tsx
+│       ├── NavbarIcon.tsx
+│       └── SocialMediaLinks.tsx
+├── styles/
+│   └── index.css          # Tailwind CSS styles
+├── utils/
+│   └── constants.ts       # Constants for projects, technologies, and navbar links
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🚀 Getting Started
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to set up the project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository**:
+
+   ```sh
+   git clone https://github.com/hajar-nasr/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**:
+
+   ```sh
+   npm install
+   ```
+
+3. **Start the development server**:
+
+   ```sh
+   npm run dev
+   ```
+
+4. Open your browser and visit [http://localhost:5173](http://localhost:5173) to see the website in action!
+
+The website will be live at [https://hajar-nasr.github.io/portfolio](https://hajar-nasr.github.io/portfolio).
+
+Thank you for checking out my portfolio! If you have any questions or feedback, feel free to reach out. 😊
